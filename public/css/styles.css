@@ -1,0 +1,10 @@
+nav a {
+	display: inline-block;
+	margin: 0 .2em;
+	padding: 0 .2em;
+	border: 1px solid #007bff;
+}
+
+.stylesheet {
+	color: green;
+}
