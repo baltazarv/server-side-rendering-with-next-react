@@ -39,3 +39,6 @@ Used to make AJAX call and load data on server (using `axios`). Available both o
 SPA routing using `next/link <Link>`.
 
 Using query string to create dynamic content. Links from `/pages/index.js` pass data to create dynamic pages with `pages/users/profile.js`.
+
+# ESLint
+Used [ESLint configuration and best practices](https://blog.geographer.fr/eslint-guide) and [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) as reference for installation.
