@@ -10,11 +10,10 @@ class Home extends Component {
 			const response = await axios.get('https://jsonplaceholder.typicode.com/users/');
 			userData = response.data;
 		} catch {
-			console.log('error')
+			console.error('error')
 		}
 
-		console.log('pathname:', pathname, 'query:', query, 'asPath:', asPath)
-		// console.log('req', req)
+		// console.log('pathname:', pathname, 'query:', query, 'asPath:', asPath)
 
 		return {
 			userData
