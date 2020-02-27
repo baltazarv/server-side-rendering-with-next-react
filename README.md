@@ -35,6 +35,10 @@ Examples:
 ## getInitialProps
 Used to make AJAX call and load data on server (using `axios`). Available both on server and front-end. Data can be saved to state or props.
 
+## Installing Express
+1. Install express.
+1. Run `server.js` from `packages.json` startup scripts.
+
 # Routing
 SPA routing using `next/link <Link>`.
 
